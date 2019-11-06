@@ -80,7 +80,6 @@ public class WorkLoads {
         driver.quit();
     }
 
-
     @Test
     public void testCase_6() {
         BrowserUtils.maximaze(driver);driver.get(URL);BrowserUtils.wait(1);
@@ -90,7 +89,6 @@ public class WorkLoads {
         Assert.assertTrue(tc6_errorMessage.isDisplayed());BrowserUtils.wait(1);
         driver.quit();
     }
-
 
     @Test
     public void testCase_7() {
